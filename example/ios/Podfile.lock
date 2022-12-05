@@ -1,0 +1,84 @@
+PODS:
+  - Flutter (1.0.0)
+  - FMDB/SQLCipher (2.7.5):
+    - SQLCipher
+  - MobileSync (9.1.1):
+    - MobileSync/MobileSync (= 9.1.1)
+  - MobileSync/MobileSync (9.1.1):
+    - SmartStore (~> 9.1.1)
+  - SalesforceAnalytics (9.1.1):
+    - SalesforceAnalytics/SalesforceAnalytics (= 9.1.1)
+  - SalesforceAnalytics/SalesforceAnalytics (9.1.1):
+    - SalesforceSDKCommon (~> 9.1.1)
+  - SalesforceSDKCommon (9.1.1):
+    - SalesforceSDKCommon/SalesforceSDKCommon (= 9.1.1)
+  - SalesforceSDKCommon/SalesforceSDKCommon (9.1.1)
+  - SalesforceSDKCore (9.1.1):
+    - SalesforceSDKCore/SalesforceSDKCore (= 9.1.1)
+  - SalesforceSDKCore/SalesforceSDKCore (9.1.1):
+    - SalesforceAnalytics (~> 9.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 9.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 9.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 9.1.1)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (9.1.1):
+    - SalesforceAnalytics (~> 9.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (9.1.1):
+    - SalesforceAnalytics (~> 9.1.1)
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (9.1.1):
+    - SalesforceAnalytics (~> 9.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+  - smart_store_helper (0.0.1):
+    - Flutter
+    - MobileSync
+  - SmartStore (9.1.1):
+    - SmartStore/SmartStore (= 9.1.1)
+  - SmartStore/SmartStore (9.1.1):
+    - FMDB/SQLCipher (~> 2.7.5)
+    - SalesforceSDKCore (~> 9.1.1)
+    - SQLCipher/fts (~> 4.4.2)
+  - SQLCipher (4.4.3):
+    - SQLCipher/standard (= 4.4.3)
+  - SQLCipher/common (4.4.3)
+  - SQLCipher/fts (4.4.3):
+    - SQLCipher/common
+  - SQLCipher/standard (4.4.3):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - MobileSync
+  - smart_store_helper (from `.symlinks/plugins/smart_store_helper/ios`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FMDB
+    - SQLCipher
+  https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Specs.git:
+    - MobileSync
+    - SalesforceAnalytics
+    - SalesforceSDKCommon
+    - SalesforceSDKCore
+    - SmartStore
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  smart_store_helper:
+    :path: ".symlinks/plugins/smart_store_helper/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MobileSync: 4e9790b086a0d099f97171250adfa8da2b10737f
+  SalesforceAnalytics: 1d673ab498854ffc9ce42958bec9e5010060956a
+  SalesforceSDKCommon: 8e85b8a2baeabfc4bc23f1f6fa54bc53c5234baf
+  SalesforceSDKCore: 5280ea7992f6d8d90420e24a06d1d3df95e32c34
+  smart_store_helper: 077ef594d162051d3d853df69d25ad75fea065cf
+  SmartStore: 3bdb0fb4a955e15487a04cc8336100a66d3cd642
+  SQLCipher: 155ffeafc9ac102e5c9b68e3e9a1297a98a27096
+
+PODFILE CHECKSUM: 632ae7447b0c13a6403c63719421705ed0071e51
+
+COCOAPODS: 1.11.3
