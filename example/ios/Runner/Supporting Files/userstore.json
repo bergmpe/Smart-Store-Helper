@@ -1,0 +1,56 @@
+{
+  "soups": [
+    {
+      "soupName": "AccountSoup",
+      "indexes": [
+        { "path": "Id", "type": "string"},
+        { "path": "Name", "type": "string"},
+        { "path": "isCustomObject", "type": "integer"},
+        { "path": "IsDeleted", "type": "string"},
+        { "path": "BillingStreet", "type": "string"},
+        { "path": "BillingPostalCode", "type": "string"},
+        { "path": "BillingCity", "type": "string"},
+        { "path": "_soupEntryId", "type": "integer"},
+        { "path": "_soupLastModifiedDate", "type": "integer"},
+        { "path": "__local__", "type": "string"},
+        { "path": "__locally_created__", "type": "string"},
+        { "path": "__locally_updated__", "type": "string"},
+        { "path": "__locally_deleted__", "type": "string"},
+        { "path": "__sync_id__", "type": "integer"}
+      ]
+    },
+    {
+      "soupName": "UserSoup",
+      "indexes": [
+        { "path": "Id", "type": "string"},
+        { "path": "FirstName", "type": "string"},
+        { "path": "Name", "type": "string"},
+        { "path": "LastName", "type": "string"},
+        { "path": "ProfileName__c", "type": "string"},
+        { "path": "IsActive", "type": "integer"},
+        { "path": "__local__", "type": "string"},
+        { "path": "__locally_created__", "type": "string"},
+        { "path": "__locally_updated__", "type": "string"},
+        { "path": "__locally_deleted__", "type": "string"},
+        { "path": "__sync_id__", "type": "integer"}
+      ]
+    },
+    {
+      "soupName": "ContactSoup",
+      "indexes": [
+        { "path": "Id", "type": "string"},
+        { "path": "LastName", "type": "string"},
+        { "path": "Phone", "type": "string"},
+        { "path": "AccountId", "type": "string"},
+        { "path": "parentSoupEntryId", "type": "string"},
+        { "path": "_soupEntryId", "type": "integer"},
+        { "path": "IsDeleted", "type": "integer"},
+        { "path": "__local__", "type": "string"},
+        { "path": "__locally_created__", "type": "string"},
+        { "path": "__locally_updated__", "type": "string"},
+        { "path": "__locally_deleted__", "type": "string"}
+      ]
+    }
+  ]
+  
+}

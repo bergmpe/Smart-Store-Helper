@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>remoteAccessConsumerKey</key>
+	<string>3MVG9JEx.BE6yifP.svYOrTPoA2U2dsyX298C8peL1zdztNw0bn7XFUqR8xwfRlYRKb2qQBg8zJ9pj.B32Zyh</string>
+	<key>oauthRedirectURI</key>
+	<string>flutterseed://auth/success</string>
+	<key>oauthScopes</key>
+	<array>
+		<string>web</string>
+		<string>api</string>
+	</array>
+	<key>shouldAuthenticate</key>
+	<true/>
+</dict>
+</plist>
